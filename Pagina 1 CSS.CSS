@@ -16,15 +16,17 @@ body {
     
     body {
       margin:0;
+      
     }
     
     .container {
       display: flex;
-      min-height:100px;
+      min-height:10px;
+      height: 80vh;
     }
     
     .sidebar {
-      width: 200px;
+      width: 20vw;
       position: relative;
       left: 0;
       background-color: #ccc;
@@ -33,6 +35,9 @@ body {
     
     
     .sidebar.collapsed {
-      left: -200px;
+      left: -1000px;
       margin-right: -200px;
+    }
+    a {
+      font-size: 4rem;
     }
