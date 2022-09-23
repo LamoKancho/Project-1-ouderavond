@@ -1,4 +1,4 @@
-/* The sidebar menu */
+/* de sidebar menu */
 .sidenav {
     width: 100px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
@@ -37,4 +37,3 @@
 body{
   font-family: 'Courier New', Courier, monospace;
 }
-  lol
