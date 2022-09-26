@@ -34,6 +34,29 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+  /*nav bar*/
 body{
   font-family: 'Courier New', Courier, monospace;
+}
+.container {
+  display: flex;
+  min-height:10px;
+  height: 50vh;
+}
+
+.sidebar {
+  width: 20vw;
+  position: relative;
+  right: 0;
+  background-color: #ccc;
+  transition: all .25s;
+}
+
+
+.sidebar.collapsed {
+  right: -100px;
+  margin-left: -200px;
+}
+a{
+  font-size: small;
 }
