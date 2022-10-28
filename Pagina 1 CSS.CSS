@@ -3,23 +3,17 @@ html {
   font-size: 62.5%;
 }
 body {
-  background-color: grey;
+  background-color: green;
   margin: 0%;
-
 }
 
-footer {
-  font-size: 2em;
-}
-
-  table, th, td{
-    border:1px solid black;
-    }
+ 
 #Nieuws {
   display: flex;
   border: solid 5px;
   height: 40vh;
   width: 15vw;
+  top: 0px;
 }
 
 
@@ -30,7 +24,7 @@ footer {
     .container {
       display: flex;
       min-height:10px;
-      height: 97vh;
+      height: 92vh;
     }
     
     .sidebar {
@@ -43,16 +37,18 @@ footer {
     
     
     .sidebar.collapsed {
-      left: -1000px;
+      left: -310px;
       margin-right: -200px;
     }
     a {
       font-size: 4rem;
     }
     #mainmenu {
-      position: sticky;
+      position: absolute;
+      left: 308px;
       height: 4em;
       width: 4em;
+ 
     }
     nav {
       text-decoration: none;
@@ -69,7 +65,6 @@ footer {
       font-size: 25px;
     }
     header {
-      position:sticky;
       top: 0px;
     }
     footer{
