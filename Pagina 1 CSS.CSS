@@ -72,3 +72,6 @@ footer {
       position:sticky;
       top: 0px;
     }
+    footer{
+      font-size: 2em;
+    }
