@@ -1,0 +1,102 @@
+/*Base code*/
+html {
+  font-size: 62.5%;
+}
+header {
+      
+  top: 0px;
+  background-color:#006445;
+}
+body {
+  background-color: grey;
+  margin: 0%;
+  font-family: 'Courier New', Courier, monospace;
+}
+footer{
+  font-size: 2em;
+  background-color:#006445;
+  padding: 0%;
+}
+.inlog{
+    float: right;
+    width: 110px;
+    height: 45px;
+    }
+p1{
+      font-size: 25px;
+    }
+a {
+      font-size: 4rem;
+    }
+/* pagina 1 */
+  table, th, td{
+    border:1px solid black;
+    }
+#Nieuws {
+  display: flex;
+  border: solid 5px;
+  height: 40vh;
+  width: 15vw;
+}  
+ /* Hier is de menu navigatie bar*/ 
+.container {
+      display: flex;
+      min-height:10px;
+      height: 97vh;
+    }
+.sidebar {
+      width: 20vw;
+      position: relative;
+      left: 0;
+      background-color: #ccc;
+      transition: all .25s;
+    }
+.sidebar.collapsed {
+      left: -1000px;
+      margin-right: -200px;
+    }
+#mainmenu {
+      position: sticky;
+      height: 4em;
+      width: 4em;
+    }
+nav {
+      text-decoration: none;
+    }
+/*pagina 3*/
+/* de sidebar menu */
+.sidenav3 {
+  width: 100px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 10%; /* Stay at the top */
+  right: 0;
+  background-color: snow; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav3 a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav3 a:hover {
+  color:blue;
+}
+
+/* Style page content */
+.main3{
+  text-align:left;
+}
+
+
+    
+  
+ 
+    
