@@ -8,9 +8,19 @@ body {
 
 }
 
+footer {
+  font-size: 2em;
+}
+
   table, th, td{
     border:1px solid black;
     }
+#Nieuws {
+  display: flex;
+  border: solid 5px;
+  height: 40vh;
+  width: 15vw;
+}
 
 
     
