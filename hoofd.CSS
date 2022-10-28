@@ -1,4 +1,7 @@
 /*Base code*/
+/* * {
+  border: solid 3px; 
+} */
 html {
   font-size: 62.5%;
 }
@@ -37,26 +40,28 @@ a {
   border: solid 5px;
   height: 40vh;
   width: 15vw;
+  top: 0px;
 }  
  /* Hier is de menu navigatie bar*/ 
-.container {
-      display: flex;
-      min-height:10px;
-      height: 97vh;
-    }
-.sidebar {
-      width: 20vw;
-      position: relative;
-      left: 0;
-      background-color: #ccc;
-      transition: all .25s;
-    }
+ .sidebar {
+  display: flex;
+  float: left;
+  min-height:10px;
+  height: 100vh;
+  width: 20vw;
+  position: absolute;
+  left: 0;
+  background-color: #ccc;
+  transition: all .25s;
+  z-index: 1;
+}
 .sidebar.collapsed {
-      left: -1000px;
-      margin-right: -200px;
+      left: -309px;
+      /* margin-right: -200px; */
     }
 #mainmenu {
-      position: sticky;
+      position: absolute;
+      left: 308px;
       height: 4em;
       width: 4em;
     }
