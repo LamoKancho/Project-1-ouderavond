@@ -1,0 +1,72 @@
+/*Base code*/
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: green;
+  margin: 0%;
+}
+
+ 
+#Nieuws {
+  display: flex;
+  border: solid 5px;
+  height: 40vh;
+  width: 15vw;
+  top: 0px;
+}
+
+
+    
+    /* Hier is de menu navigatie bar*/
+
+    
+    .container {
+      display: flex;
+      min-height:10px;
+      height: 92vh;
+    }
+    
+    .sidebar {
+      width: 20vw;
+      position: relative;
+      left: 0;
+      background-color: #ccc;
+      transition: all .25s;
+    }
+    
+    
+    .sidebar.collapsed {
+      left: -310px;
+      margin-right: -200px;
+    }
+    a {
+      font-size: 4rem;
+    }
+    #mainmenu {
+      position: absolute;
+      left: 308px;
+      height: 4em;
+      width: 4em;
+ 
+    }
+    nav {
+      text-decoration: none;
+    }
+
+    
+    /*inlog code*/
+    .inlog{
+    float: right;
+    width: 110px;
+    height: 45px;
+    }
+    p1{
+      font-size: 25px;
+    }
+    header {
+      top: 0px;
+    }
+    footer{
+      font-size: 2em;
+    }
