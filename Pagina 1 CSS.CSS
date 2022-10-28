@@ -1,4 +1,7 @@
 /*Base code*/
+* {
+  border: solid 3px;
+}
 html {
   font-size: 62.5%;
 }
@@ -21,13 +24,20 @@ body {
     /* Hier is de menu navigatie bar*/
 
     
-    .container {
+    /* .container {
       display: flex;
+      position:sticky;
+      float: left;
       min-height:10px;
       height: 92vh;
     }
-    
+     */
     .sidebar {
+      display: flex;
+      position:sticky;
+      float: left;
+      min-height:10px;
+      height: 92vh;
       width: 20vw;
       position: relative;
       left: 0;
@@ -38,8 +48,10 @@ body {
     
     .sidebar.collapsed {
       left: -310px;
-      margin-right: -200px;
+      /* margin-right: -200px;  */
     }
+
+    
     a {
       font-size: 4rem;
     }
