@@ -5,7 +5,8 @@ html {
 header {
   top: 0px;
   background-color:#006445;
-  font-size: 150px;
+  font-size: 110px;
+  color: white;
 }
 body {
   background-color: #004630;
@@ -19,6 +20,7 @@ footer{
   justify-content: flex-end;
   font-size: 2em;
   background-color:#006445;
+  color: white;
 }
 .inlog{
     margin-right: 5vw;
@@ -137,9 +139,27 @@ nav {
 .main3{
   text-align:left;
 }
-
-
-    
-  
- 
-    
+/*pagina 4*/
+@media only screen and (min-width: 1501px){ 
+  .container{
+  display: flex;
+  width: 1700px;
+  height: 710px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+}
+@media only screen and (max-width: 1500px){
+  .container{
+    display: flex;
+    width: 1450px;
+    height: 498px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+}
+#p4{
+  color: white;
+}
