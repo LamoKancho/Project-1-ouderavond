@@ -8,26 +8,31 @@ header {
   font-size: 150px;
 }
 body {
-  display: flex;
   background-color: #004630;
   margin: 0%;
   font-family: 'Courier New', Courier, monospace;
-  flex-direction: column;
   min-height: 100vh;
 }
 footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   font-size: 2em;
   background-color:#006445;
-  margin-top: auto;
 }
 .inlog{
-    float: right;
+    margin-right: 5vw;
+    float: right; 
     width: 110px;
     height: 45px;
+    background-color:#b0bd36;
+    border-radius: 20px;
     }
-p1{
-      font-size: 25px;
-    }
+
+#Inlog_a { font-size: 2rem;
+
+}
+
 a {
       font-size: 4rem;
     }
@@ -36,15 +41,42 @@ a {
     border:1px solid black;
     }
 #Nieuws { 
-  margin: 50px 50px 0px 0px;
-  float: right;
-  border: solid 5px;
+  border: 2px solid;
   height: 40vh;
   width: 15vw;
-  top: 0px;
-  position: right;
+  border-radius: 20px;
+  float: right;
+  margin: 200px 50px 0px 0px;
 }  
  /* Hier is de menu navigatie bar*/ 
+li {
+  border: solid 3px;
+}
+
+ a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
  .sidebar {
   display: flex;
   float: left;
@@ -66,7 +98,9 @@ a {
       left: 308px;
       height: 4em;
       width: 4em;
-    }
+      background-color: #b0bd36;
+      border-radius: 4px;
+        }
 nav {
       text-decoration: none;
     }
