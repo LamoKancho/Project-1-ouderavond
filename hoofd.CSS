@@ -203,7 +203,7 @@ nav {
   text-align:left;
 }
 /*pagina 4*/
-@media only screen and (min-width: 1501px){ 
+/* @media only screen and (min-width: 1501px){ 
   .container{
   display: flex;
   width: 1700px;
@@ -213,7 +213,7 @@ nav {
   justify-content: space-evenly;
 }
 }
-@media only screen and (max-width: 1500px){
+@media only screen and (max-width: 1500px){ */
   .container{
     display: flex;
     width: 1450px;
