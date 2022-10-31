@@ -57,7 +57,7 @@ a {
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  background-image:url("/img/images.jpeg");
+  background-image:url("img/images.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -93,7 +93,7 @@ align-content: center;
 }
 
 #body1{
-  background-image: url("/Project 1 ouderavond/img/foto_homepagina.png");
+  background-image: url("img/foto_homepagina.png");
   background-size: cover;
 }
 
@@ -183,8 +183,6 @@ nav {
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
-
-/* The navigation menu links */
 .sidenav3 a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -192,15 +190,32 @@ nav {
   color:black;
   display: block;
 }
-
-/* When you mouse over the navigation links, change their color */
 .sidenav3 a:hover {
   color:blue;
 }
-
-/* Style page content */
 .main3{
   text-align:left;
+}
+.textp3{
+  max-width: 80vw;
+  font-size: 300%;
+}
+.texth3{
+  font-size: 500%;
+}
+.header3{
+  width: 110vw;
+}
+.body3{
+  padding: 1%;
+  padding-right: 10%;
+  max-width: 90vw;
+  color: snow;
+  overflow-x: hidden;
+}
+.imgp3{
+  height: 50vh;
+  width: 50vw
 }
 /*pagina 4*/
 /* @media only screen and (min-width: 1501px){ 
