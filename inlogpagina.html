@@ -4,17 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hoofd.CSS">
     <title>inloggen</title>
 </head>
-<body>
-<form action="inlog">
-    <label for="email">email</label><br>
-    <input type="email" id="email" name="email"></input><br>
-    <label for="sex">sex</label><br>
-    <label for="password">password</label><br>
-    <input type="password" id="password" name="password"><br>
-    <label for="submit">submit</label><br>
-    <input type="submit" id="submit" name="submit"><br>
+<body class="form1">
+<form action="Homepagina1.html">
+    <label for="email">zet hier jouw email adres</label><br>
+    <input type="email" id="email" name="email"></input><br><br>
+    <label for="username">typ hier uw gebruikersnaam in</label><br>
+    <input type="text" id="text"><br><br>
+    <label for="radio">welke sex ben jij</label><br>
+    <input type="radio" id="sex" name="sex" value="male">
+    <label for="man">man</label><br>
+    <input type="radio" id="sex" name="sex" value="vrouw">
+    <label for="man">vrouw</label><br>
+    <input type="radio" id="sex" name="sex" value="anders">
+    <label for="anders">anders</label><br><br>
+    <label for="geboortedatum">zet hier uw geboortedatum</label><br>
+    <input type="date"><br><br>
+    <label for="number">zet hier uw telefoon nummer in</label><br>
+    <label for="number">31+</label>
+    <input type="number" id="number" value="06" min="0" max="1000000000"><br><br>
+    <label for="password">zet hier jouw wachtwoord</label><br>
+    <input type="password" id="password" name="password"><br><br>
+    <input type="submit" id="sign_up" value="aanmaken"><br>
 </form>
 
     
