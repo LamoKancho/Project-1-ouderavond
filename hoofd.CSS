@@ -24,7 +24,7 @@ footer{
   position:fixed;
   left:0px;
   bottom:0px;
-  font-size:150%;
+  font-size:110%;
   background-color:#006445;
   color: white;
 }
@@ -172,7 +172,46 @@ nav {
       text-decoration: none;
     }
 
-
+/*pagina 2*/
+.pagina2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-top: 11vh;
+}
+.a2{
+  text-align: center;
+}
+/* .pagina_2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} */
+.border2{
+  background-color: #b0bd36;
+  border: solid 3px;
+  border-color: #004630;
+  text-align: center;
+  vertical-align: center;
+}
+#body2{
+  background-image: url(img/studenten_ouders.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.foto2{
+  width: 20vw;
+  height: 50vh;
+  border: solid 5px;
+  border-radius: 30px;
+}
+#foto2{
+  width: 40vw;
+  height: 50vh;
+  border: solid 5px;
+  border-radius: 120px;
+}
 /*pagina 3*/
 /* de sidebar menu */
 .sidenav3 {
@@ -237,18 +276,6 @@ nav {
   color: white;
   font-size: 2em;
 }
-/*pagina 6 */
-.h1_6{
-  padding: 1%;
-  color: blue;
-
-}
-.pagina6{
-  background-image: url(img/Goed-gesprek.jpg);
-  background-size: cover;
-}
-
-
 /* pagina 5 */
 #body5 {
   /* background-image:url("img/sadsmiley.png") ;
@@ -275,6 +302,15 @@ nav {
   justify-content: space-around;
   align-items: center;
   margin-top: 2vh;
+}
+/*pagina 6 */
+.h1_6{
+  padding: 1%;
+  color: blue;
+}
+.pagina6{
+  background-image: url(img/Goed-gesprek.jpg);
+  background-size: cover;
 }
 /* pagina 7 */
 .section7{
