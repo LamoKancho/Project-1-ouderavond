@@ -232,6 +232,17 @@ nav {
 
 #p4{
   color: white;
+  font-size: 2em;
+}
+/*pagina 6 */
+.h1_6{
+  padding: 1%;
+  color: blue;
+
+}
+.pagina6{
+  background-image: url(img/Goed-gesprek.jpg);
+  background-size: cover;
 }
 
 
