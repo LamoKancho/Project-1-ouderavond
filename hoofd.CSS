@@ -5,7 +5,7 @@ html {
 header {
   top: 0px;
   background-color:#006445;
-  font-size: 1000%;
+  font-size: 500%;
   color: white;
   text-align: center;
   max-width: 100vw;
@@ -16,6 +16,7 @@ body {
   margin: 0%;
   font-family: 'Courier New', Courier, monospace;
   min-height: 100vh;
+  color: white;
 }
 footer{
   text-align: center;
@@ -211,12 +212,14 @@ nav {
   padding: 1%;
   padding-right: 10%;
   max-width: 90vw;
-  color: snow;
   overflow-x: hidden;
 }
 .imgp3{
   height: 50vh;
   width: 50vw
+}
+#h1_3{
+  color: snow;
 }
 /*pagina 4*/
   .container{
@@ -232,6 +235,17 @@ nav {
 
 #p4{
   color: white;
+  font-size: 2em;
+}
+/*pagina 6 */
+.h1_6{
+  padding: 1%;
+  color: blue;
+
+}
+.pagina6{
+  background-image: url(img/Goed-gesprek.jpg);
+  background-size: cover;
 }
 
 
@@ -255,7 +269,6 @@ nav {
 #sadsmiley5 {
   height: 60vh;
 }
-
 #sec5{
   display: flex;
   flex-direction: row;
@@ -263,8 +276,39 @@ nav {
   align-items: center;
   margin-top: 2vh;
 }
-
-
+/* pagina 7 */
+.section7{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  width: 99vw;
+  height: 92vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#yermaih{
+  width: 30vw;
+  height: 100%;
+  align-content: left;
+}
+#embiya{
+  width: 30vw;
+  height: 100%;
+  align-content: right;
+}
+#left7{
+  align-items: left;
+  font-size: 2em;
+  width: 20vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#right7{
+  font-size: 2em;
+  width: 20vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 /* *{
   border: solid 4px;
 } */
