@@ -310,13 +310,20 @@ background-image: url(img/404.jpeg);
   margin-top: 2vh;
 }
 /*pagina 6 */
+#foto3 {
+  
+}
+
 .h1_6{
   padding: 1%;
-  color: blue;
+  color:
+
+  /* background-color: rgba(0, 1, 0.5, 0.5); */
 }
 .pagina6{
   background-image: url(img/Goed-gesprek.jpg);
   background-size: cover;
+  background-blend-mode: overlay;
 }
 /* pagina 7 */
 .section7{
