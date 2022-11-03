@@ -61,18 +61,21 @@ a {
   background-image:url("img/images.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  
+  overflow: hidden;
+ 
 }
 form{
   border: 5px solid;
   color: snow;
   font-size: large;
-  margin: 25vh;
   background-color:#006445;
   opacity: 0.8;
   border-color: #b0bd36;
+  text-align: center;
+  margin-top: 15vh;
 }
 label{
+  
   font-size: larger;
 }
 #sign_up{
@@ -111,6 +114,11 @@ align-content: center;
   margin-right: 12vw;
 }  
  /* Hier is de menu navigatie bar*/ 
+ .nieuwsli {
+  font-size: 300%;
+  text-align: center;
+  margin-right: 2vw;
+ }
 .nav_li {
   background-color: lightblue;
   border: solid 3px;
@@ -195,6 +203,7 @@ font-size: 2rem;
 border:solid 3px ;
 border-color: #006445;
 background-color:#b0bd36;
+border-radius: 60px;
 }
 
 .border2{
@@ -208,6 +217,7 @@ background-color:#b0bd36;
   background-image: url(img/studenten_ouders.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 .foto2{
   width: 20vw;
@@ -230,7 +240,7 @@ background-color:#b0bd36;
   top: 10%; /* Stay at the top */
   right: 0;
   background-color: snow; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
+  /* overflow-x: hidden; Disable horizontal scroll */
   padding-top: 20px;
   padding-right: 1vw;
 }
@@ -248,21 +258,25 @@ background-color:#b0bd36;
   text-align:left;
 }
 .textp3{
-  max-width: 80vw;
+  max-width: 90vw;
   font-size: 300%;
 }
 .texth3{
+  max-width: 90vw;
   font-size: 500%;
 }
-.header3{
-  width: 110vw;
-}
 .body3{
-  padding: 1%;
+  padding-left: 5vw;
   padding-right: 10%;
-  max-width: 90vw;
-  overflow-x: hidden;
+  max-width: 100vw;
+  overflow-x:hidden;
 }
+
+#htmltags {
+  width: 50rem;
+  height: 35rem;
+}
+
 .imgp3{
   height: 50vh;
   width: 50vw
@@ -327,8 +341,6 @@ background-image: url(img/404.jpeg);
 .h1_6{
   padding: 1%;
   color:
-
-  /* background-color: rgba(0, 1, 0.5, 0.5); */
 }
 .pagina6{
   background-image: url(img/Goed-gesprek.jpg);
@@ -411,3 +423,7 @@ background-image: url(img/404.jpeg);
   align-items: center;
   margin: 7vh;
 }
+
+/* *{
+  border: solid;
+} */
